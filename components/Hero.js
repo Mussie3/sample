@@ -54,7 +54,7 @@ function Hero () {
         loading="lazy"
         />
         <div css={css`position: absolute; z-index: 20; top: 45%; left: 15%; font-size: 2.5vw; width: 50%; color: #fff; font-weight: bold; text-shadow: 0px 2px 1px rgba(249, 181, 170, 0.4);`}>
-          <Image src={LeftHero} css={css`width: 20vw; height: 6vh;`}/>
+          {/* <Image src={LeftHero} css={css`width: 20vw; height: 6vh;`}/> */}
         </div>
         <div css={css`position: absolute; z-index: 20; top: 32%; left: 62%; font-size: 2.5vw; width: 50%; color: #fff; font-weight: bold; text-shadow: 0px 2px 1px rgba(249, 181, 170, 0.4);`}>
           <Image src={RightHero} css={css`width: 20vw; height: 6vh;`}/>

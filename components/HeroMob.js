@@ -20,7 +20,7 @@ function HeroMob () {
                     <Image src={RightHeroMob} css={css`width: 51px; height: 32px;`}/>
                 </div>
                 <div css={css`position: absolute; top: 259px; left: 286px;`}>
-                    <Image src={LeftHeroMob} css={css`width: 51px; height: 32px;`}/>
+                    {/* <Image src={LeftHeroMob} css={css`width: 51px; height: 32px;`}/> */}
                 </div>
                 <Image
                 src={HeroBackgroundMob}
