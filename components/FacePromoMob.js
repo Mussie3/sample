@@ -25,7 +25,7 @@ function FacePromoMob () {
               </div>
             </div>
             <div css={css`display: flex; justify-content: center; align-items: center`}>
-              <Image src={FaceLift} css={css`width: 370px; height: 410px`} loading="lazy"/>
+              <Image src={FaceLift} css={css`width: 370px; height: 410px`}/>
             </div>
             <div css={css``}>
               <div css={css`font-family: 'Pretendard'; font-style: normal; font-weight: 400; font-size: 36px; line-height: 37px; text-align: center; letter-spacing: -0.02em; color: #383838;`}>정답은</div>
@@ -35,9 +35,9 @@ function FacePromoMob () {
             </div>
             <div css={css`display: flex; justify-content: center; align-items: center; padding-top: 2rem;`}>
               <div>
-                <div css={css`display: flex; justify-content: center`}><Image src={FaceUp} css={css`width: 210px; height: 170px; padding-bottom: 0.5rem;`} loading="lazy"/></div>
-                <div css={css`display: flex; justify-content: center`}><Image src={ChinUp} css={css`width: 210px; height: 170px; padding-bottom: 0.5rem;`} loading="lazy"/></div>
-                <div css={css`display: flex; justify-content: center`}><Image src={FaceDown} css={css`width: 210px; height: 170px; padding-bottom: 0.5rem;`} loading="lazy"/></div>
+                <div css={css`display: flex; justify-content: center`}><Image src={FaceUp} css={css`width: 210px; height: 170px; padding-bottom: 0.5rem;`} /></div>
+                <div css={css`display: flex; justify-content: center`}><Image src={ChinUp} css={css`width: 210px; height: 170px; padding-bottom: 0.5rem;`} /></div>
+                <div css={css`display: flex; justify-content: center`}><Image src={FaceDown} css={css`width: 210px; height: 170px; padding-bottom: 0.5rem;`} /></div>
               </div>
             </div>
             <div css={css`font-family: 'Pretendard'; font-style: normal; padding-top: 1rem; padding-bottom: 2rem; font-weight: 100; font-size: 16px; line-height: 32px; text-align: center; letter-spacing: -0.02em; color: #383838;`}>많은 실을 넣으면 적게 넣는 것보다는<br/> 큰 효과를 볼 수 있지만, 중요한 건 <br/> 실의 갯수가 아닌 <span css={css`font-weight: 800;`}>정확한 위치에 섬세하게</span><br/>시술하는 것입니다.</div>

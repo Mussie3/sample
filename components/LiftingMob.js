@@ -17,7 +17,6 @@ function LiftingMob () {
                                 <Image
                                 src={LiftingOne}
                                 css={css`width: 180px; height: 180px`}
-                                loading="lazy"
                                 />
                             </div>
                             <div css={css`padding-top: 1rem`}>
@@ -31,7 +30,6 @@ function LiftingMob () {
                                 <Image
                                 src={LiftingTwo}
                                 css={css`width: 180px; height: 180px`}
-                                loading="lazy"
                                 />
                             </div>
                             <div css={css`padding-top: 1rem;`}>

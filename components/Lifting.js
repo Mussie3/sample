@@ -20,7 +20,6 @@ function Lifting () {
                                 <Image
                                 src={LiftingOne}
                                 css={css`width: 180px; height: 180px`}
-                                loading="lazy"
                                 />
                             </div>
                             <div css={css`padding-left: 2rem; padding-top: 1rem`}>
@@ -35,7 +34,6 @@ function Lifting () {
                                 <Image
                                 src={LiftingTwo}
                                 css={css`width: 180px; height: 180px`}
-                                loading="lazy"
                                 />
                             </div>
                             <div css={css`padding-left: 2rem; padding-top: 1rem`}>

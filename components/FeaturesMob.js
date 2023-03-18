@@ -42,7 +42,6 @@ function FeaturesMob() {
             <Image
             src={BackgroundImage}
             css={css`object-fit: cover; width: 100%;`}
-            loading="lazy"
             />
         </div>
       </div>

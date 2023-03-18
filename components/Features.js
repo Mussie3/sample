@@ -14,10 +14,10 @@ function Features() {
         <div css={css`width: 100%; display: flex; justify-content: center;`}>
         <div css={css`width: 1920px; position: relative; overflow-x: hidden;`}>
           <div css={css`position: absolute; width: 1920px; z-index: 10; top: 0; ${isTablet ? 'left: -300px;' : `${isLaptop? 'left: -170px;': 'left: 0px;'}`}  overflow-x: hidden; display: flex; justify-content: center;`}>
-            <Image src={Abstract} css={css`width: 1920px; height: 100%;`} loading="lazy"/>
+            <Image src={Abstract} css={css`width: 1920px; height: 100%;`}/>
           </div>
           <div css={css`position: absolute; z-index: 20; ${isTablet ? 'left: -150px;' : `${isLaptop? 'left: 100px': 'left: 160px;'}`} width: 1920px; top: 30px; overflow-x: hidden display: flex; justify-content: center;`}>
-            <Image src={Woman} css={css`height: 868px; width: 811px;`} loading="lazy"/>
+            <Image src={Woman} css={css`height: 868px; width: 811px;`}/>
           </div>
           <div css={css`width: 1920px; height: 127px; background: linear-gradient(to right, #E8EEF9 0%, #D6E1F4 100% );`}></div>
           <div css={css`width: 1920px; height: 777px; overflow-y: hidden;`}>

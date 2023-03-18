@@ -23,25 +23,21 @@ function Hero () {
           src={star1}
           alt="star_1"
           css={css`position: absolute; z-index: 10; ${isSmallScreen? 'width: 7%; height: 14%; left: 20.5%; bottom: 21%;': `${isTablet ?' width: 7%; height: 14%; left: 13.5%; bottom: 23%;' : `${isLaptop? ' width: 7%; height: 14%; left: 21%; bottom: 21%;' : 'width: 7%; height: 14%; left: 20.5%; bottom: 21%;'}`}`}`} 
-          loading="lazy"
           />
           <Image
           src={star2}
           alt="star_2"
           css={css`position: absolute; ${isSmallScreen? 'width: 5%; height: 10%; left: 71%; top: 27%': `${isTablet ?'width: 5%; height: 10%; left: 80%; top: 27%' : `${isLaptop? 'width: 5%; height: 10%; left: 75.5%; top: 27%' : 'width: 5%; height: 10%; left: 71%; top: 27%'}`}`} `}
-          loading="lazy"
           />
           <Image
           src={circle1}
           alt="circle_1"
           css={css`position: absolute; ${isSmallScreen? 'width: 50%; height: 100%; bottom: -50%; left: 20%':`${isTablet ?'width: 70%; height: 100%; bottom: -50%; left: 10%': `${isLaptop? 'width: 55%; height: 100%; bottom: -50%; left: 20%' : 'width: 50%; height: 100%; bottom: -50%; left: 20%'}`}`} `}
-          loading="lazy"
           />
           <Image
           src={circle2}
           alt="circle_2"
           css={css`position: absolute; ${isSmallScreen? 'width: 25%; height: 50%; top: 20%; left: 50%':`${isTablet ?'width: 35%; height: 50%; top: 20%; left: 50%' : `${isLaptop? 'width: 30%; height: 50%; top: 20%; left: 50%' : 'width: 25%; height: 50%; top: 20%; left: 50%'}`}`}`}
-          loading="lazy"
           />
         </div>
         <div css={css`width: 100%; height: 100vh; position: absolute; top: 0px; z-index: 10; justify-content: center; display: flex;`}>
@@ -49,7 +45,6 @@ function Hero () {
           src={heroImage}
           alt="image of hero"
           css={css`height: 100vh; ${isSmallScreen? 'width: 100%;': `${isTablet ?'width: 80%;' : `${isLaptop? 'width: 60%;' : 'width: 50%;'}`}`} width: 50%; object-fit: cover;`}
-          loading="lazy"
           />
         </div>
         <Image
@@ -59,10 +54,10 @@ function Hero () {
         loading="lazy"
         />
         <div css={css`position: absolute; z-index: 20; top: 45%; left: 15%; font-size: 2.5vw; width: 50%; color: #fff; font-weight: bold; text-shadow: 0px 2px 1px rgba(249, 181, 170, 0.4);`}>
-          <Image src={LeftHero} css={css`width: 20vw; height: 6vh;`} loading="lazy"/>
+          <Image src={LeftHero} css={css`width: 20vw; height: 6vh;`}/>
         </div>
         <div css={css`position: absolute; z-index: 20; top: 32%; left: 62%; font-size: 2.5vw; width: 50%; color: #fff; font-weight: bold; text-shadow: 0px 2px 1px rgba(249, 181, 170, 0.4);`}>
-          <Image src={RightHero} css={css`width: 20vw; height: 6vh;`} loading="lazy"/>
+          <Image src={RightHero} css={css`width: 20vw; height: 6vh;`}/>
         </div>
         <div css={css`width: 100%; height: 100vh; position: absolute; top: 0px; z-index: 30; justify-content: center; display: flex;`}>
           <div css={css`width: calc(50% - 960px); background-color: #fff; height: 100vh;`}/>

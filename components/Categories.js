@@ -56,11 +56,11 @@ function Categories() {
                             <div css={css`position: relative; width: 250px`}>
                                 <div css={css`background: #6776C2; padding-top: 0.5rem; padding-bottom: 0.5rem; font-family: 'Pretendard'; font-style: normal; font-weight: 700; font-size: 15px; line-height: 18px; text-align: center; letter-spacing: -0.02em; color: #FFFFFF;`}>리프팅 구간</div>
                                 <div css={css`position: absolute; left: 21%; z-index: -1; top: 3rem;`}>
-                                    <Image src={PullLeft} css={css`width: 332px; height: 59px; object-fit: cover;`} loading="lazy"/>
+                                    <Image src={PullLeft} css={css`width: 332px; height: 59px; object-fit: cover;`}/>
                                 </div>
                                 <div css={css`font-family: 'Pretendard'; padding-top: 7rem; font-style: normal; font-weight: 700; font-size: 15px; line-height: 25px; text-align: center; letter-spacing: -0.02em;`}><span css={css`color: #5991E7`}>효과1.</span> <br/>처음 디자인 그대로<br/>더 오랫동안 유지!</div>
                             </div>
-                            <div css={css`width: 100%; display: flex; justify-content: center; width: 250px`}><Image src={FaceImage} css={css`width: 250px; height: 250px; object-fit: cover;`} loading="lazy"/></div>
+                            <div css={css`width: 100%; display: flex; justify-content: center; width: 250px`}><Image src={FaceImage} css={css`width: 250px; height: 250px; object-fit: cover;`}/></div>
                             <div css={css`position: relative; width: 250px`}>
                                 <div css={css`background: #5991E7; padding-top: 0.5rem; padding-bottom: 0.5rem; font-family: 'Pretendard'; font-style: normal; font-weight: 700; font-size: 15px; line-height: 18px; text-align: center; letter-spacing: -0.02em; color: #FFFFFF;`}>고정 구간</div>
                                 <div css={css`position: absolute; right: 20%; z-index: -1; top: 3rem`}>
