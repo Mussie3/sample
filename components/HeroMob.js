@@ -3,7 +3,7 @@ import { jsx, css } from '@emotion/react';
 import Image from 'next/image';
 import HeroBackgroundMob from '../public/static/images/HeroBackgroundMob.png';
 import RightHeroMob from '../public/static/images/RightHeroMobTitle.png';
-import LeftHeroMob from '../public/static/images/LeftHeroMobtitle.png';
+// import LeftHeroMob from '../public/static/images/LeftHeroMobtitle.png';
 import HeroDown from '../public/static/images/HeroDown.png';
 
 function HeroMob () {

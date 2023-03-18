@@ -7,7 +7,7 @@ import star2 from '../public/static/images/star2.png';
 import circle1 from '../public/static/images/circle1.png';
 import circle2 from '../public/static/images/circle2.png';
 import stars from '../public/static/images/stars.png';
-import LeftHero from '../public/static/images/LeftHero.png';
+// import LeftHero from '../public/static/images/LeftHero.png';
 import RightHero from '../public/static/images/RightHero.png';
 import { useMediaQuery } from 'react-responsive';
 
